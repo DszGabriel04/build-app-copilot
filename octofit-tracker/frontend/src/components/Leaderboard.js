@@ -4,7 +4,7 @@ function Leaderboard() {
   const [leaderboard, setLeaderboard] = useState([]);
 
   useEffect(() => {
-    fetch('https://solid-fiesta-v99jw4wp97pfw6xv-8000.app.github.dev/api/leaderboard')
+    fetch('https://solid-fiesta-v99jw4wp97pfw6xv-8000.app.github.dev/api/leaderboard/?format=api')
       .then(response => response.json())
       .then(data => setLeaderboard(data));
   }, []);

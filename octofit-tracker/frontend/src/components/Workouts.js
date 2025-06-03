@@ -4,7 +4,7 @@ function Workouts() {
   const [workouts, setWorkouts] = useState([]);
 
   useEffect(() => {
-    fetch('https://solid-fiesta-v99jw4wp97pfw6xv-8000.app.github.dev/api/workouts')
+    fetch('https://solid-fiesta-v99jw4wp97pfw6xv-8000.app.github.dev/api/workouts/?format=api')
       .then(response => response.json())
       .then(data => setWorkouts(data));
   }, []);

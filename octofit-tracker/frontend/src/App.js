@@ -67,3 +67,5 @@ function App() {
 }
 
 export default App;
+
+fetch('https://solid-fiesta-v99jw4wp97pfw6xv-8000.app.github.dev/api/<component>/?format=api')

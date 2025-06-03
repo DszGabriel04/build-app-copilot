@@ -4,7 +4,7 @@ function Users() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch('https://solid-fiesta-v99jw4wp97pfw6xv-8000.app.github.dev/api/users')
+    fetch('https://solid-fiesta-v99jw4wp97pfw6xv-8000.app.github.dev/api/users/?format=api')
       .then(response => response.json())
       .then(data => setUsers(data));
   }, []);

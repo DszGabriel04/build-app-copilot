@@ -4,7 +4,7 @@ function Teams() {
   const [teams, setTeams] = useState([]);
 
   useEffect(() => {
-    fetch('https://solid-fiesta-v99jw4wp97pfw6xv-8000.app.github.dev/api/teams')
+    fetch('https://solid-fiesta-v99jw4wp97pfw6xv-8000.app.github.dev/api/teams/?format=api')
       .then(response => response.json())
       .then(data => setTeams(data));
   }, []);
