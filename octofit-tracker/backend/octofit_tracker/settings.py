@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-)he2qx+-dm@_i9bw@#@9g*8j$)9-u-vteu%i_qzoeq$!a=iqqt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["*", 'solid-fiesta-v99jw4wp97pfw6xv-8000.app.github.dev', 'localhost']
 
 
 # Application definition
