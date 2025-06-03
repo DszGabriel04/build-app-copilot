@@ -1,10 +1,13 @@
 .App {
   text-align: center;
+  background-color: #f0f8ff; /* Light blue background */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,18 +17,40 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #4caf50; /* Green background */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ffffff; /* White text */
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ff5722; /* Orange links */
+}
+
+.table {
+  background-color: #e0f7fa; /* Light cyan for tables */
+  color: #004d40; /* Dark teal text */
+}
+
+.button {
+  background-color: #ff9800; /* Amber buttons */
+  color: #ffffff; /* White text */
+}
+
+h1 {
+  color: #3f51b5; /* Indigo headings */
+}
+
+.navbar {
+  background-color: #673ab7; /* Deep purple navigation */
+}
+
+.nav-link {
+  color: #ffffff; /* White navigation links */
 }
 
 @keyframes App-logo-spin {
