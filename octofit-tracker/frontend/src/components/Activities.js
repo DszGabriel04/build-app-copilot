@@ -4,7 +4,7 @@ function Activities() {
   const [activities, setActivities] = useState([]);
 
   useEffect(() => {
-    fetch('https://solid-fiesta-v99jw4wp97pfw6xv-8000.app.github.dev/api/activity/?format=api')
+    fetch('https://solid-fiesta-v99jw4wp97pfw6xv-8000.app.github.dev/api/activity/')
       .then(response => response.json())
       .then(data => setActivities(data));
   }, []);
